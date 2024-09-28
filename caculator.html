@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var number_1 = 20;
+        var number_2 = 15;
+        var total = number_1 * number_2;
+
+        var number_3 = 30;
+        var number_4 = 10;
+        var sum = number_3 + number_4;
+
+        var number_5 = 45;
+        var number_6 = 15;
+        var sum_3 = number_5 - number_6;
+
+        var number_7 = 8;
+        var number_8 = 2;
+        var sum_4 = number_7 / number_8;
+
+        document.getElementById("p1").innerHTML = "If we multiply 20 and 15, the answer will be " + total;
+        document.getElementById("p2").innerHTML = "If we add 30 and 10, the answer will be " + sum;
+        document.getElementById("p3").innerHTML = "If we subtract 15 from 45, the answer will be " + sum_3;
+        document.getElementById("p4").innerHTML = "If we divide 8 by 2, the answer will be " + sum_4;
+    </script>
+</body>
+</html>
